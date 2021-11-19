@@ -10,7 +10,7 @@ window.addEventListener('keydown', (event) => {
     document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
     document.getElementById('hiHatS').style.transitionDuration = '7s';
   } else if (event.keyCode == 68) {
-    var kickD = new Audio('./sounds/kick.wav');
+    var kickD = new Audio('./sounds/hiHat.wav');
     kickD.play();
     document.getElementById('kickD').style.transform = 'rotate(360deg)';
     document.getElementById('kickD').style.transitionDuration = '2s';
