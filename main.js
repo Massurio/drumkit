@@ -4,13 +4,19 @@ window.addEventListener('keydown', (event) => {
     clapA.play();
     document.getElementById('clapA').style.transform = 'rotate(360deg)';
     document.getElementById('clapA').style.transitionDuration = '3s';
+    
+  }else if (event.keyCode == 83) {
+    var hiHatS = new Audio('./sounds/hiHat.wav');
+    hiHatS.play();
+    document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
+    document.getElementById('hiHatS').style.transitionDuration = '7s';
   } else if (event.keyCode == 83) {
     var hiHatS = new Audio('./sounds/hiHat.wav');
     hiHatS.play();
     document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
     document.getElementById('hiHatS').style.transitionDuration = '7s';
   } else if (event.keyCode == 68) {
-    var kickD = new Audio('./sounds/hiHat.wav');
+    var kickD = new Audio('./sounds/kick.wav');
     kickD.play();
     document.getElementById('kickD').style.transform = 'rotate(360deg)';
     document.getElementById('kickD').style.transitionDuration = '2s';
