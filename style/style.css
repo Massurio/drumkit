@@ -9,7 +9,7 @@ h1 {
   color: yellow;
 }
 body {
-  background-image: url('./images/rock.jpg');
+  background-image: url('/images/rock.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -57,8 +57,8 @@ p:hover {
   font-size: 25px;
 }
 
-/* @keyframes example {
+@keyframes example {
   50% {
     margin-top: 20px;
   }
-} */
+}
