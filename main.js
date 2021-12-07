@@ -34,8 +34,6 @@ window.addEventListener('keydown', (event) => {
     tinkL.play();
     document.getElementById('tinkL').style.transform = 'rotate(360deg)';
     document.getElementById('tinkL').style.transitionDuration = '2s';
-  } else {
-    location.reload();
   }
 });
 window.addEventListener('keydown', (event) => {
