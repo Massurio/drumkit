@@ -4,26 +4,11 @@ window.addEventListener('keydown', (event) => {
     clapA.play();
     document.getElementById('clapA').style.transform = 'rotate(360deg)';
     document.getElementById('clapA').style.transitionDuration = '3s';
-  } else if (event.keyCode == 83) {
-    var hiHatS = new Audio('./sounds/hiHat.wav');
-    hiHatS.play();
-    document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
-    document.getElementById('hiHatS').style.transitionDuration = '7s';
-  } else if (event.keyCode == 83) {
-    var hiHatS = new Audio('./sounds/hiHat.wav');
-    hiHatS.play();
-    document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
-    document.getElementById('hiHatS').style.transitionDuration = '7s';
   } else if (event.keyCode == 68) {
     var kickD = new Audio('./sounds/kick.wav');
     kickD.play();
     document.getElementById('kickD').style.transform = 'rotate(360deg)';
     document.getElementById('kickD').style.transitionDuration = '2s';
-  } else if (event.keyCode == 70) {
-    var openHatF = new Audio('./sounds/openHat.wav');
-    openHatF.play();
-    document.getElementById('openHatF').style.transform = 'rotate(360deg)';
-    document.getElementById('openHatF').style.transitionDuration = '4s';
   } else if (event.keyCode == 71) {
     var boomG = new Audio('./sounds/boom.wav');
     boomG.play();
@@ -51,5 +36,19 @@ window.addEventListener('keydown', (event) => {
     document.getElementById('tinkL').style.transitionDuration = '2s';
   } else {
     location.reload();
+  }
+});
+window.addEventListener('keydown', (event) => {
+  if (event.keyCode == 83) {
+    var hiHatS = new Audio('./sounds/hiHat.wav');
+    hiHatS.play();
+    document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
+    document.getElementById('hiHatS').style.transitionDuration = '7s';
+  }
+  if (event.keyCode == 70) {
+    var openHatF = new Audio('./sounds/openHat.wav');
+    openHatF.play();
+    document.getElementById('openHatF').style.transform = 'rotate(360deg)';
+    document.getElementById('openHatF').style.transitionDuration = '4s';
   }
 });

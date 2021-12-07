@@ -38,6 +38,9 @@ body {
   position: relative;
   height: 70px;
 }
+.inputBoxes:hover {
+  cursor: pointer;
+}
 p {
   text-align: center;
   color: yellow;
