@@ -4,8 +4,7 @@ window.addEventListener('keydown', (event) => {
     clapA.play();
     document.getElementById('clapA').style.transform = 'rotate(360deg)';
     document.getElementById('clapA').style.transitionDuration = '3s';
-    
-  }else if (event.keyCode == 83) {
+  } else if (event.keyCode == 83) {
     var hiHatS = new Audio('./sounds/hiHat.wav');
     hiHatS.play();
     document.getElementById('hiHatS').style.transform = 'rotate(360deg)';
