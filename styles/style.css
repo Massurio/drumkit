@@ -58,9 +58,3 @@ p:hover {
   border-radius: 10px;
   font-size: 25px;
 }
-
-@keyframes example {
-  50% {
-    margin-top: 20px;
-  }
-}
